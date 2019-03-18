@@ -1,8 +1,11 @@
 import Main from '../components/underConstruction/main'
+import Layout from '../components/underConstruction/layout'
 
 export default () => (
-    <div>
-        <Main />
+    <div className = 'container'>
+        <Layout>
+            <Main />
+        </Layout>
     </div>
 )
 

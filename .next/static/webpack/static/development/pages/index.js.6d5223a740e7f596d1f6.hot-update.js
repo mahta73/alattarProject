@@ -1,8 +1,8 @@
 webpackHotUpdate("static/development/pages/index.js",{
 
-/***/ "./components/underConstruction/footer.js":
+/***/ "./components/underConstruction/layout.js":
 /*!************************************************!*\
-  !*** ./components/underConstruction/footer.js ***!
+  !*** ./components/underConstruction/layout.js ***!
   \************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -11,40 +11,36 @@ webpackHotUpdate("static/development/pages/index.js",{
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/mahta/alattarProject/components/underConstruction/footer.js";
+var _jsxFileName = "/home/mahta/alattarProject/components/underConstruction/layout.js";
 
 
-var Footer = function Footer() {
+var Layout = function Layout(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 2
+      lineNumber: 6
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 3
+      lineNumber: 7
     },
     __self: this
-  }, "27/17 Roubinyans Street, Yerevan 0035, Armenia"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, props.children), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
+    JSX: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 10
     },
     __self: this
-  }, "E-mail address: ifo@alattarparfume.com"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, "Phone number: +374 11250050, +374 441250050"));
+  }, "\n            .wrapper {\n                width:100%;\n                height:100%;\n                position:absolute;\n                background: url(\"../../static/mainImage.jpg\"));\n            }\n        "));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Footer);
+/* harmony default export */ __webpack_exports__["default"] = (Layout);
 
 /***/ })
 
 })
-//# sourceMappingURL=index.js.9ed7039c08ab7109e203.hot-update.js.map
+//# sourceMappingURL=index.js.6d5223a740e7f596d1f6.hot-update.js.map

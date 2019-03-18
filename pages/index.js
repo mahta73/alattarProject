@@ -1,8 +1,13 @@
-// import mainImage from '../imgs/mainImage.jpg'
+import Main from '../components/underConstruction/main'
 
 export default () => (
     <div>
-        <img 
+        <Main />
+    </div>
+)
+
+/*
+<img 
             className = 'mainImage'
             src = '../static/mainImage.jpg' 
             alt = 'Our website is under construction' 
@@ -20,5 +25,4 @@ export default () => (
                 overflow: auto;
             }`}
             </style>
-    </div>
-)
+*/
